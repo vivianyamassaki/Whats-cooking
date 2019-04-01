@@ -27,7 +27,7 @@ Já o conjunto de teste contém 9.944 exemplos e apenas 2 colunas: uma com o id 
 
 ![Amostra do conjunto de teste](/figuras/exemploTeste.PNG "Amostra do conjunto de teste")
 
-A variável resposta, que é dada pelo tipo de cozinha, pode ser descrita por múltiplos valores. Logo, trata-se de um problema multiclasse.
+A classe, que é dada pelo tipo de cozinha, pode ser descrita por múltiplos valores. Logo, trata-se de um problema multiclasse.
 
 Além disso, como os exemplos dos conjuntos de dados de treino e teste estão em formato JSON, há um desafio extra em manipular esses dados de modo a se obter uma estrutura que permita treinar e testar o modelo com esses conjuntos. 
 
