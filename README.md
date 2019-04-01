@@ -21,11 +21,11 @@ Será na primeira versão do desafio que as predições dos modelos criados ness
 ### Conjuntos de dados e entradas
 Os dados do desafio _What's cooking?_ foram obtidos [aqui](https://www.kaggle.com/c/whats-cooking/data). O problema possui dois conjuntos de dados: um de treino e outro de teste. O conjunto de treinamento contém 39.774 exemplos e possui 3 variáveis: uma contém o id da receita, outra com a lista de ingredientes e outra com o tipo de culinária do qual a receita pertence, que é a variável resposta:
 
-![Amostra do conjunto de treino](/figuras/exemploTreino.png "Amostra do conjunto de treinamento")
+![Amostra do conjunto de treino](/figuras/exemploTreino.PNG "Amostra do conjunto de treinamento")
 
 Já o conjunto de teste contém 9.944 exemplos e apenas 2 colunas: uma com o id da receita e outra com a lista de ingredientes. Como o tipo de culinária é a variável resposta, ela foi removida do conjunto de teste: 
 
-![Amostra do conjunto de teste](/figuras/exemploTeste.png "Amostra do conjunto de teste")
+![Amostra do conjunto de teste](/figuras/exemploTeste.PNG "Amostra do conjunto de teste")
 
 A variável resposta, que é dada pelo tipo de cozinha, pode ser descrita por múltiplos valores. Logo, trata-se de um problema multiclasse.
 
