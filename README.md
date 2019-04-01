@@ -50,12 +50,15 @@ Como o desafio do Kaggle não fornece a variável resposta do conjunto de teste,
 Para a resolução desse problema, o seguinte fluxo de trabalho será adotado na seguinte ordem:
 
 **1 - Análise exploratória dos dados**
+
 Primeiramente, como não foram fornecidas informações sobre os dados presentes nos conjuntos de treinamento e teste, será realizada uma análise exploratória para melhor entendimento do problema. Com essa análise, será possível verificar quais cozinhas possuem mais ou menos receitas, as distribuições dos ingredientes por tipo de cozinha, quantidade média de ingredientes por receita, quais ingredientes são específicos para uma determinada cozinha, etc. Além disso, também será possível verificar se existem outliers ou ingredientes escritos erroneamente.
 
 **2 - Feature engineering**
+
 Após a análise exploratória, será necessário realizar uma etapa de feature engineering para fazer o tratamento do conjunto de dados (por exemplo, dos ingredientes que estão com erro de digitação) e exclusão de outliers. Será nessa etapa em que serão aplicadas também técnicas para tratamento do texto, como o TF-IDF e o one-hot encoding.
 
 **3 - Modelagem**
+
 Em seguida, os modelos de machine learning serão treinados com o conjunto de dados resultante da etapa anterior. A princípio, os seguintes modelos foram escolhidos para serem treinados:
 
 - Regressão logística, que é um modelo mais simples e muito utilizado para comparar a performance com outros algoritmos;
@@ -67,7 +70,9 @@ Em seguida, os modelos de machine learning serão treinados com o conjunto de da
 Diversos parâmetros serão testados utilizando a técnica de Gridsearch e os melhores modelos de cada um dos 3 tipos descritos acima serão considerados como aqueles que obtiverem a maior acurácia.
 
 **4 - Avaliação**
+
 Nessa etapa de avaliação, será calculada a acurácia para avaliar e escolher os melhores modelos. Além disso, para o modelo treinado e testado com o conjunto de treinamento dividido, também será criada uma matriz de confusão para que seja possível avaliar o quão bem o modelo está classificando determinadas receitas.
 
 **5 - Comparação e discussão dos modelos**
+
 Após a escolha do melhor modelo, suas predições serão submetidas ao Kaggle e o seu resultado será comparado com o benchmark. Como não temos as classes do conjunto de teste, um novo modelo com as mesmas configurações desse modelo anterior será treinado com uma proporção do conjunto de treinamento e o restante será utilizado para testá-lo, para que seja possível realizar outras análises desse problema. Com todas essas informações, os resultados serão discutidos e serão realizadas comparações entre os modelos criados nesse projeto com o benchmark.
