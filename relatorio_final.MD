@@ -252,13 +252,15 @@ A visualização escolhida foi a matriz de confusão abaixo, a qual contém no e
 
 ![](figuras/confusion_matrix.png)
 
-A matriz de confusão acima permite observar quais os tipos de cozinha que o modelo mais acertou e com quais cozinhas ele se confundiu.
+A matriz de confusão acima permite observar quais os tipos de cozinha que o modelo mais acertou e com quais cozinhas ele se confundiu. A cozinha mexicana, por exemplo, é uma que o modelo aprendeu a predizer, visto que a maioria das receitas foi classificada corretamente. Por outro lado, o modelo não parece ter aprendido a predizer a cozinha irlandesa corretamente, visto que a maioria das receitas foi considerada como pertencente de outras cozinhas.
+
+Essas confusões do modelo permitiram notar um fato interessante: muitas vezes ele se confunde com cozinhas localizadas próximas da cozinha verdadeira. Por exemplo, muitas receitas francesas acabaram sendo preditas como italianas; muitas receitas cajun/crioula foram consideradas sulistas; e muitas receitas japonesas e coreanas foram preditas como se fossem chinesas.
 
 Isso também foi observado no gráfico abaixo presente [neste kernel](https://www.kaggle.com/alonalevy/cultural-diffusion-by-recipes) disponibilizado no site do Kaggle no qual o autor utilizou o K-means para fazer o agrupamento dos tipos de cozinha com base em suas similaridades:
 
 ![](figuras/clustering.png)
 
-Essas duas visualizações demonstram que cozinhas de locais mais próximos acabam tendo uma certa similaridade.
+Essas duas visualizações demonstram que cozinhas de locais mais próximos acabam tendo uma certa similaridade, pois seus pratos possuem ingredientes em comuns e que são comuns daquela região.
 
 ### Reflexão
 
