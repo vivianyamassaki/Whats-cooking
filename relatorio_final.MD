@@ -69,7 +69,7 @@ No caso do conjunto de teste, foi removido a coluna **cuisine**, pois ela é a v
 A classe, que é dada pelo tipo de cozinha, pode ser descrita por múltiplos valores; logo, trata-se de um problema multiclasse. O conjunto possui 20 diferentes tipos de cozinha, que estão descritos na tabela abaixo. A tabela contém uma coluna contando o número da cozinha (apenas para facilitar a contagem das 20 cozinhas); a bandeira do país de origem do tipo de cozinha; o nome da cozinha presente no conjunto de dados; esse nome de cozinha traduzido para o português; e também foram adicionadas mais duas colunas contendo a quantidade de receitas da respectiva cozinha que está presente no conjunto de dados e sua proporção com relação a todas as receitas presentes no conjunto de dados:
 |#|bandeira|nome no dataset| nome traduzido| quantidade de ingredientes| proporção do conjunto de dados|
 |--|--|---|--|---|--|
-|1|<img src="../figuras/flags/brazil.png" width="40"/>|brazilian|brasileira|467|1.17%|
+|1|<img src="figuras/flags/brazil.png" width="40"/>|brazilian|brasileira|467|1.17%|
 |2|<img src="../figuras/flags/united-kingdom.png" width="40"/>|british|britânica|804|2.02%|
 |3|<img src="../figuras/flags/united-states.png" width="40"/>|cajun_creole| cajun/crioula|1546|3.88|
 |4|<img src="../figuras/flags/china.png" width="40"/>|chinese| chinesa|2673|6.72%|
