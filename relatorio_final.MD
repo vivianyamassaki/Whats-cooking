@@ -228,7 +228,7 @@ Esse modelo foi treinado novamente dessa vez com o conjunto de treinamento divid
 
 Para esse novo treinamento, o melhor modelo foi a regressão logística com os parâmetros solver _SAGA_, C de 0.1 e penalty L1. Ele obteve uma acurácia de 0.7788138440860215 e os outros seguintes resultados:
 
-![](figuras/classification_report.png)
+![](figuras/classification_report.PNG)
 
 Os resultados acima indicam que o modelo foi melhor para classificar alguns tipos de cozinhas do que outras. Por exemplo, para a cozinha mexicana, o modelo apresentou uma precisão, recall e um F1-score muito elevados, o que pode indicar que as receitas mexicanas do conjunto de dados apresentam ingredientes característicos e que permitiram que o modelo pudesse diferenciá-la melhor das demais cozinhas. Por outro lado, os resultados para a cozinha irlandesa não foram tão bons, visto que apresentou uma precisão, recall e um F1-score baixos, indicando que o modelo confundiu as receitas irlandesas com outras cozinhas, fato que pode ter ocorrido porque as receitas irlandesas do conjunto de dados não possuem ingredientes muito característicos e que permitissem diferenciá-los das demais ou que possuíam muitos ingredientes que também eram utilizados em outras cozinhas.
 
@@ -238,7 +238,7 @@ A acurácia obtida foi um pouco acima do que foi obtida quando o conjunto de tre
 
 O melhor modelo obtido neste projeto não foi capaz de obter a acurácia obtida pelo benchmark, que é o modelo com a melhor colocação no ranking do Kaggle. A diferença entre eles não foi tão elevada (abaixo em 0.06637, o que representa uma acurácia 8% abaixo do benchmark), mas dentre todas as submissões realizadas para este problema, a solução desde projeto ficaria entre os 400 primeiros colocados:
 
-![](figuras/ranking.png)
+![](figuras/ranking.PNG)
 
 Mesmo assim, observando os resultados apresentados na seção anterior, foi possível notar que o modelo conseguiu predizer algumas das cozinhas com uma grande exatidão, principalmente aquelas com uma combinação de ingredientes mais característicos.
 
