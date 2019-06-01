@@ -70,25 +70,25 @@ A classe, que é dada pelo tipo de cozinha, pode ser descrita por múltiplos val
 |#|bandeira|nome no dataset| nome traduzido| quantidade de ingredientes| proporção do conjunto de dados|
 |--|--|---|--|---|--|
 |1|<img src="figuras/flags/brazil.png" width="40"/>|brazilian|brasileira|467|1.17%|
-|2|<img src="../figuras/flags/united-kingdom.png" width="40"/>|british|britânica|804|2.02%|
-|3|<img src="../figuras/flags/united-states.png" width="40"/>|cajun_creole| cajun/crioula|1546|3.88|
-|4|<img src="../figuras/flags/china.png" width="40"/>|chinese| chinesa|2673|6.72%|
-|5|<img src="../figuras/flags/philippines.png" width="40"/>|filipino| filipina|755|1.89%|
-|6|<img src="../figuras/flags/france.png" width="40"/>|french| francesa|2646|6.65%|
-|7|<img src="../figuras/flags/greece.png" width="40"/>|greek| grega|1175|2.95%|
-|8|<img src="../figuras/flags/india.png" width="40"/>|indian| indiana|3003|7.55%|
-|9|<img src="../figuras/flags/ireland.png" width="40"/>|irish| irlandesa|667|1.67%|
-|10|<img src="../figuras/flags/italy.png" width="40"/>|italian| italiana|7838|19.70%|
-|11|<img src="../figuras/flags/jamaica.png" width="40"/>|jamaican| jamaicana|526|1.32%|
-|12|<img src="../figuras/flags/japan.png" width="40"/>|japanese| japonesa|1423|3.57%|
-|13|<img src="../figuras/flags/south-korea.png" width="40"/>|korean| coreana|830|2.08%|
-|14|<img src="../figuras/flags/mexico.png" width="40"/>|mexican| mexicana|6438|16.18%|
-|15|<img src="../figuras/flags/morocco.png" width="40"/>|moroccan| marroquina|821|2.06%|
-|16|<img src="../figuras/flags/russia.png" width="40"/>|russian| russa|489|1.22%|
-|17|<img src="../figuras/flags/united-states.png" width="40"/>|southern_us|sulista (do sul dos Estados Unidos)|4320|10.86%|
-|18|<img src="../figuras/flags/spain.png" width="40"/>|spanish| espanhola|989|2.48%|
-|19|<img src="../figuras/flags/thailand.png" width="40"/>|thai| tailandesa|1539|3.86%|
-|20|<img src="../figuras/flags/vietnam.png" width="40"/>|vietnamese| vietnamita|825|2.07%|
+|2|<img src="figuras/flags/united-kingdom.png" width="40"/>|british|britânica|804|2.02%|
+|3|<img src="figuras/flags/united-states.png" width="40"/>|cajun_creole| cajun/crioula|1546|3.88|
+|4|<img src="figuras/flags/china.png" width="40"/>|chinese| chinesa|2673|6.72%|
+|5|<img src="figuras/flags/philippines.png" width="40"/>|filipino| filipina|755|1.89%|
+|6|<img src="figuras/flags/france.png" width="40"/>|french| francesa|2646|6.65%|
+|7|<img src="figuras/flags/greece.png" width="40"/>|greek| grega|1175|2.95%|
+|8|<img src="figuras/flags/india.png" width="40"/>|indian| indiana|3003|7.55%|
+|9|<img src="figuras/flags/ireland.png" width="40"/>|irish| irlandesa|667|1.67%|
+|10|<img src="figuras/flags/italy.png" width="40"/>|italian| italiana|7838|19.70%|
+|11|<img src="figuras/flags/jamaica.png" width="40"/>|jamaican| jamaicana|526|1.32%|
+|12|<img src="figuras/flags/japan.png" width="40"/>|japanese| japonesa|1423|3.57%|
+|13|<img src="figuras/flags/south-korea.png" width="40"/>|korean| coreana|830|2.08%|
+|14|<img src="figuras/flags/mexico.png" width="40"/>|mexican| mexicana|6438|16.18%|
+|15|<img src="figuras/flags/morocco.png" width="40"/>|moroccan| marroquina|821|2.06%|
+|16|<img src="figuras/flags/russia.png" width="40"/>|russian| russa|489|1.22%|
+|17|<img src="figuras/flags/united-states.png" width="40"/>|southern_us|sulista (do sul dos Estados Unidos)|4320|10.86%|
+|18|<img src="figuras/flags/spain.png" width="40"/>|spanish| espanhola|989|2.48%|
+|19|<img src="figuras/flags/thailand.png" width="40"/>|thai| tailandesa|1539|3.86%|
+|20|<img src="figuras/flags/vietnam.png" width="40"/>|vietnamese| vietnamita|825|2.07%|
 
 Por meio das informações e do gráfico acima, é possível notar que a cozinha com mais receitas presentes no conjunto de dados é a italiana, enquanto que a cozinha com menos receitas é a brasileira, que representam, respectivamente, 19.7% e 1.17% do conjunto de dados. Somente as três cozinhas com mais receitas (italiana, mexicana e sulista) já contemplam quase metade de todas as receitas do conjunto de treinamento (46.75%).
 
@@ -120,7 +120,7 @@ Todos os pontos citados acima foram tratados durante o pré-processamento dos da
 
 A visualização exploratória escolhida foi o gráfico abaixo:
 
-![](../figuras/ingredientesMaisUtilizados.png)
+![](figuras/ingredientesMaisUtilizados.png)
 
 Esse gráfico contém a lista dos 15 ingredientes mais utilizados dentre todas as receitas presentes no conjunto de dados. O eixo X contém os ingredientes mais utilizados e o eixo Y contém a quantidade de receitas do conjunto de treinamento que utilizam esse ingrediente.
 
@@ -215,11 +215,11 @@ Com todas essas combinações, foram realizados 27 treinamentos (são as 9 combi
 Com os três modelo treinados, foram realizadas as predições para o conjunto de teste. Essas predições foram submetidas ao Kaggle e as seguintes acurácias foram retornadas para cada modelo:
 
 * **Modelo A - Regressão Logística**
-	![](../figuras/logit_accuracy.png)
+	![](figuras/logit_accuracy.png)
 * **Modelo B - Random Forest**
-	![](../figuras/random_forest_accuracy.png)
+	![](figuras/random_forest_accuracy.png)
 * **Modelo C - SVM**
-	![](../figuras/svm_accuracy.png)
+	![](figuras/svm_accuracy.png)
 
 Como é possível notar nas figuras acima, o modelo com a maior acurácia foi a regressão logística, que obteve uma acurácia de 0.76166.
 
@@ -227,7 +227,7 @@ Esse modelo foi treinado novamente dessa vez com o conjunto de treinamento divid
 
 Para esse novo treinamento, o melhor modelo foi a regressão logística com os parâmetros solver _SAGA_, C de 0.1 e penalty L1. Ele obteve uma acurácia de 0.7788138440860215 e os outros seguintes resultados:
 
-![](../figuras/classification_report.png)
+![](figuras/classification_report.png)
 
 Os resultados acima indicam que o modelo foi melhor para classificar alguns tipos de cozinhas do que outras. Por exemplo, para a cozinha mexicana, o modelo apresentou uma precisão, recall e um F1-score muito elevados, o que pode indicar que as receitas mexicanas do conjunto de dados apresentam ingredientes característicos e que permitiram que o modelo pudesse diferenciá-la melhor das demais cozinhas. Por outro lado, os resultados para a cozinha irlandesa não foram tão bons, visto que apresentou uma precisão, recall e um F1-score baixos, indicando que o modelo confundiu as receitas irlandesas com outras cozinhas, fato que pode ter ocorrido porque as receitas irlandesas do conjunto de dados não possuem ingredientes muito característicos e que permitissem diferenciá-los das demais ou que possuíam muitos ingredientes que também eram utilizados em outras cozinhas.
 
@@ -237,7 +237,7 @@ A acurácia obtida foi um pouco acima do que foi obtida quando o conjunto de tre
 
 O melhor modelo obtido neste projeto não foi capaz de obter a acurácia obtida pelo benchmark, que é o modelo com a melhor colocação no ranking do Kaggle. A diferença entre eles não foi tão elevada (abaixo em 0.06637, o que representa uma acurácia 8% abaixo do benchmark), mas dentre todas as submissões realizadas para este problema, a solução desde projeto ficaria entre os 400 primeiros colocados:
 
-![](../figuras/ranking.png)
+![](figuras/ranking.png)
 
 Mesmo assim, observando os resultados apresentados na seção anterior, foi possível notar que o modelo conseguiu predizer algumas das cozinhas com uma grande exatidão, principalmente aquelas com uma combinação de ingredientes mais característicos.
 
@@ -249,13 +249,13 @@ Além disso, a acurácia e os demais resultados gerais do modelo foram relativam
 
 A visualização escolhida foi a matriz de confusão abaixo, a qual contém no eixo Y os tipos de cozinha reais do conjunto de dados e no eixo X está o tipo de cozinha que foi predito pelo modelo. Quanto mais escuros os quadrados, mais exemplos estão na respectiva intersecção do valor real e o predito:
 
-![](../figuras/confusion_matrix.png)
+![](figuras/confusion_matrix.png)
 
 A matriz de confusão acima permite observar quais os tipos de cozinha que o modelo mais acertou e com quais cozinhas ele se confundiu.
 
 Isso também foi observado no gráfico abaixo presente [neste kernel](https://www.kaggle.com/alonalevy/cultural-diffusion-by-recipes) disponibilizado no site do Kaggle no qual o autor utilizou o K-means para fazer o agrupamento dos tipos de cozinha com base em suas similaridades:
 
-![](../figuras/clustering.png)
+![](figuras/clustering.png)
 
 Essas duas visualizações demonstram que cozinhas de locais mais próximos acabam tendo uma certa similaridade.
 
