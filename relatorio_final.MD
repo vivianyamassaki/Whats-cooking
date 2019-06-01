@@ -218,9 +218,10 @@ Com os três modelo treinados, foram realizadas as predições para o conjunto d
 * **Modelo A - Regressão Logística**
 	![](figuras/logit_accuracy.png)
 * **Modelo B - Random Forest**
-		* Treinado com conjunto de treino sem o StandardScaler
+	* Treinado com conjunto de treino sem o StandardScaler
 	![](figuras/random_forest_accuracy.png)
-		* Treinado com conjunto de treino com o StandardScaler
+	
+	* Treinado com conjunto de treino com o StandardScaler
 	![](figuras/random_forest_scaled_accuracy.png)
 * **Modelo C - SVM**
 	![](figuras/svm_accuracy.png)
